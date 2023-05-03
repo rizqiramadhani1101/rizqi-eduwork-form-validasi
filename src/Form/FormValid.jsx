@@ -70,8 +70,13 @@ handleSubmit = event => {
         email: ${this.state.email}
         password: ${this.state.password}
     
-        `)
+        `);
+
+        this.setState({
+            errors:[]
+        })
     }
+
 
 
 
